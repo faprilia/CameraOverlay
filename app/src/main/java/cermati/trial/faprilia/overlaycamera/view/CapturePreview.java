@@ -1,4 +1,4 @@
-package cermati.trial.faprilia.overlaycamera;
+package cermati.trial.faprilia.overlaycamera.view;
 
 import android.app.Activity;
 import android.content.Context;

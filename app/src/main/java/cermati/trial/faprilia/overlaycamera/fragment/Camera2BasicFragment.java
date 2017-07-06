@@ -74,7 +74,7 @@ import java.util.List;
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
 
-import cermati.trial.faprilia.overlaycamera.AutoFitTextureView;
+import cermati.trial.faprilia.overlaycamera.view.AutoFitTextureView;
 import cermati.trial.faprilia.overlaycamera.R;
 
 public class Camera2BasicFragment extends Fragment
