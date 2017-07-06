@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray">
+
+    <TextView
+        android:id="@+id/take_pic_instruction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:padding="30dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="Ambil Gambar KTP \nTepat Pada Bingkai!"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"/>
+
+    <cermati.trial.faprilia.overlaycamera.AutoFitTextureView
+        android:id="@+id/texture"
+        android:layout_width="300dp"
+        android:layout_height="225dp"
+        android:layout_below="@id/take_pic_instruction"
+        android:layout_centerHorizontal="true"/>
+
+    <View
+        android:id="@+id/picture"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/circle_white"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"/>
+
+</RelativeLayout>
